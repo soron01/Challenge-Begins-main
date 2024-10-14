@@ -11,7 +11,9 @@ body {
 }
 
 .main-container {
-    background: url(assets/Hero-bg.png);
+    background: url(assets/Hero-bg.png) no-repeat;
+    background-size: cover;
+    padding: 35px 0;
     /* position: absolute;
     width: 240.28px;
     height: 240px;
@@ -21,45 +23,49 @@ body {
 
 /* in the */
 
-.in-the {
-    width: 998px;
-    height: 136px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 24;
-    padding: 0px;
-}
-
 .main-img {
     width: 240.28px;
     height: 240px;
-    left: -257.674px;
-    top: 0;
-    bottom: 0%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .container-title {
-    width: 998px;
-    height: 136px;
-    gap: 24;
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
     padding: 0px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
-.container-description {
-}
-
-.btn-pri {
-    padding: 21px 24px 21px 24px;
-    gap: 10;
-    width: 196px;
-    height: 23px;
-    background-color: rgb(13, 19, 33);
-    border-radius: 8px;
+.container-description p {
     text-align: center;
-    gap: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    margin-bottom: 50px;
+}
+
+.bribtn {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.bribtn button {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+    background: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
 }
 
 .container {
@@ -68,20 +74,58 @@ body {
 }
 .conteiner-1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 100px;
-    margin-right: 100px;
+    align-items: center;
 }
 .conteiner-2 {
     display: flex;
-    justify-content: center;
-    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
 }
 .conteiner-3 {
     display: flex;
-    justify-content: center;
-    margin-right: 100px;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.maincontainer {
+    width: 1280px;
+    display: block;
+    margin: 0 auto;
+}
+
+.maincontainer h1 {
+    text-align: left;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.maincontainer p {
+    text-align: left;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.maincontainer button {
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    background: transparent;
+    display: block;
+    margin-right: auto;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .saction {
     text-align: center;
 }
@@ -99,6 +143,9 @@ body {
     display: flex;
     margin-top: 50px;
     justify-content: center;
+}
+.soron {
+    margin-top: 50px;
 }
 .html {
     padding: 40px;
