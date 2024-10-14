@@ -1,18 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Azeret Mono", monospace;
 }
 
 .main-container {
     background: url(assets/Hero-bg.png);
+    /* position: absolute;
+    width: 240.28px;
+    height: 240px;
+    left: 619.14px;
+    top: 0; */
+}
+
+/* in the */
+
+.in-the {
+    width: 998px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
 }
 
 .main-img {
     width: 240.28px;
     height: 240px;
-    left: 619.14px;
+    left: -257.674px;
     top: 0;
+    bottom: 0%;
 }
 
 .container-title {
@@ -20,6 +45,7 @@ body {
     height: 136px;
     gap: 24;
     padding: 0px;
+    text-align: center;
 }
 
 .container-description {
@@ -129,4 +155,109 @@ body {
 }
 .class {
     margin-right: 20px;
+}
+
+.img {
+    background: url(assets/handshake.jpg);
+}
+
+.footersection {
+    width: 1280px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer1 {
+    background: url(assets/handshake.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footersec {
+    padding: 64px;
+    border-radius: 20px;
+    margin: 40px 0;
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 80px;
+}
+
+.footer1 h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.footer1 p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.footersub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footersub input {
+    width: 548px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.footersub input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace;
+}
+
+.footersub button {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 17px;
+}
+
+.footer2 {
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footermain {
+    width: 1280px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footeritems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+
+.footeritems p {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.footersocial {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footersocial img {
+    width: 36px;
+    height: 36px;
 }
